@@ -1,3 +1,2 @@
 import { writable } from 'svelte/store';
-
-export const mode = writable('auto');
+export const mode = writable('dark');
