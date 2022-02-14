@@ -1,6 +1,7 @@
 <script type="ts">
 import Toggle from './Toggle.svelte';
 import { mode } from './store';
+import Help from './components/help.svelte';
 </script>
 
 <main class:dark="{$mode === 'dark'}" class:light="{$mode === 'light'}">
@@ -8,6 +9,7 @@ import { mode } from './store';
   This is my new svelte app. I'm going to try and make nice thinks with it As I have
   learned, you cant put text outside of main.
   <!-- <Toggle /> -->
+  <Help />
 </main>
 
 <style>
